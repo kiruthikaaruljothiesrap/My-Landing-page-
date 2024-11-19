@@ -1,0 +1,186 @@
+HTML CODE:
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="navbar">
+    <h1>My Landing Page</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Welcome to My Landing Page</h2>
+    <p>Explore amazing features and experiences tailored for you!</p>
+    <a href="#features" class="btn">Learn More</a>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Our Features</h2>
+    <div class="feature-item">
+      <h3>Feature 1</h3>
+      <p>Discover the power of feature one.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Feature 2</h3>
+      <p>Explore limitless possibilities with feature two.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Feature 3</h3>
+      <p>Experience seamless integration with feature three.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>What People Say</h2>
+    <blockquote>
+      <p>"This is the best landing page I've ever seen!"</p>
+      <footer>- Happy User</footer>
+    </blockquote>
+    <blockquote>
+      <p>"A seamless experience from start to finish!"</p>
+      <footer>- Satisfied Customer</footer>
+    </blockquote>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 My Landing Page. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+Css Code:
+style.css
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.hero .btn {
+  background: #007bff;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+/* Features Section */
+.features {
+  padding: 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.feature-item {
+  margin: 1rem 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+}
+
+blockquote {
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+/* Contact Section */
+.contact {
+  padding: 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+}
+
+.contact button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+Script.js
+// Add interactivity here if needed
+console.log("Landing Page Loaded Successfully!");
+
